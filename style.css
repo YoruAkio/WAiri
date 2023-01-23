@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Victor Mono";
+    src: url("ttf/VictorMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Victor Mono";
+    src: url(ttf/VictorMono-BoldItalic.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
