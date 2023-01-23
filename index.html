@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Imports -->
-        <link rel="stylesheet" href="style.css" />
+<!--         <link rel="stylesheet" href="style.css" /> -->
 
         <link
             href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"
@@ -87,4 +87,112 @@
 </div>
 </div>
     </body>
+    <style>
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background-color: #fffdfd;
+	background-image: url("img/dots.gif");
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	transform-origin: 45px 22px;
+	animation: moveIt 2.5s ease-in-out infinite;
+}
+
+div.window {
+	background-color: rgba(239, 239, 239, 0.945);
+	min-width: 600px;
+	min-height: 400px;
+	border-radius: 0.8em;
+	margin: 1em;
+	padding: 1em;
+	text-align: center;
+}
+
+div.buttons {
+	width: 100%;
+	text-align: left;
+}
+
+div.buttons > div {
+	width: 100%;
+	border-radius: 1em;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	margin: 0.3em;
+}
+
+div.buttons > div:nth-child(1) {
+	background-color: #ff5f57;
+}
+
+div.buttons > div:nth-child(2) {
+	background-color: #febc2e;
+}
+
+div.buttons > div:nth-child(3) {
+	background-color: #28c840;
+}
+
+div#links {
+	text-align: center;
+	font-size: 300%;
+}
+
+div#links a {
+	transition: opacity 0.2s ease-in-out;
+}
+
+div#links a:hover {
+	opacity: 50%;
+}
+
+div#links a:visited {
+	color: black;
+}
+
+div#links a {
+	color: black;
+}
+
+.fa-twitter {
+	color: #1d9bf0;
+}
+
+.fa-youtube {
+	color: #f00;
+}
+
+.fa-discord {
+	color: #5562ea;
+}
+
+.fa-mastodon {
+        color: #2989ce;
+}
+
+@keyframes moveIt {
+  0%, 100% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
+
+	</style>
 </html>
