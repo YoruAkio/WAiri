@@ -11,7 +11,8 @@ body {
 	margin: 0;
 	background-color: #fffdfd;
 	background-image: url("img/dots.gif");
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Victor Mono', sans-serif;
+	font-style: italic;
 	display: flex;
 	justify-content: center;
 	align-items: center;
