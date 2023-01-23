@@ -1,116 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/229c211557f6fb19753e17be8c5024f5?family=Victor+Mono);
 @import url(//db.onlinewebfonts.com/c/f1194a57c94dfcb2bd334f7d2fa33a2a?family=Victor+Mono);
 
-/* {
-    box-sizing: border-box;
-}
-html {
-    height: 100%;
-}
-body {
-    margin: 0;
-    background-color: #fffdfd;
-    background-image: url("img/dots.gif");
-    font-family: "Victor Mono", sans-serif;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-h1 {
-    margin-top: 20px;
-    color: #e9ebed;
-    text-align: center;
-}
-
-p {
-    color: #fe80a0;
-    font-size: large;
-    text-align: center;
-}
-
-div.window {
-	background-color: rgba(239, 239, 239, 0.945);
-	min-width: 600px;
-	min-height: 400px;
-	border-radius: 0.8em;
-	margin: 1em;
-	padding: 1em;
-	text-align: center;
-}
-
-div.buttons {
-    width: 100%;
-    text-align: left;
-}
-
-div.buttons > div {
-    width: 100%;
-    border-radius: 1em;
-    width: 1.2em;
-    height: 1.2em;
-    display: inline-block;
-    margin: 0.05em;
-}
-
-div.buttons > div:nth-child(1) {
-    background-color: #fe6055;
-}
-
-div.buttons > div:nth-child(2) {
-    background-color: #febd2d;
-}
-
-div.buttons > div:nth-child(3) {
-    background-color: #2a9338;
-}
-
-div#links {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 200%;
-}
-
-div#links a {
-    transition: opacity 0.2s ease-in-out;
-}
-
-div#links a:hover {
-    opacity: 50%;
-}
-
-div#links a:visited {
-    color: black;
-}
-
-div#links a {
-    color: black;
-}
-
-.fa-twitter {
-    color: #1d9bf0;
-}
-
-.fa-youtube {
-    color: #f00;
-}
-
-.fa-discord {
-    color: #5562ea;
-}
-
-@keyframes moveIt {
-    0%,
-    100% {
-        transform: rotate(15deg);
-    }
-    50% {
-        transform: rotate(-15deg);
-    }
-} */
-
 * {
 	box-sizing: border-box;
 }
@@ -135,8 +25,20 @@ img {
 	animation: moveIt 2.5s ease-in-out infinite;
 }
 
+h1 {
+    margin-top: 20px;
+    color: #e9ebed;
+    text-align: center;
+}
+
+p {
+    color: #fe80a0;
+    font-size: large;
+    text-align: center;
+}
+
 div.window {
-	background-color: rgba(239, 239, 239, 0.945);
+	background-color: #181f29;
 	min-width: 600px;
 	min-height: 400px;
 	border-radius: 0.8em;
