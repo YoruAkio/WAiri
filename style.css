@@ -68,7 +68,7 @@ div.buttons > div:nth-child(3) {
 }
 
 div#links {
-    /* margin-top: 50px; */
+    margin-top: 50px;
     text-align: center;
     font-size: 200%;
 }
