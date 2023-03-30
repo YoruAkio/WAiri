@@ -1,8 +1,13 @@
-# Airi | Home
-Welcome to the Airi Home page! This page is currently under construction, but you can still find links to my Twitter, YouTube, and GitHub pages. 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YoruAkio/YoruAkio/joged.gif" width="100">
+    <h1>
+        <strong>Airi.dev</strong>
+    </h1>
+    <img src="https://img.shields.io/badge/HTML5-61DBFB?logo=react&logoColor=white&style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/YoruAkio/airi.dev.svg?logo=github&style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/YoruAkio/airi.dev?style=for-the-badge">
+    <img src="https://img.shields.io/website-up-down-green-red/https/airi.dev.svg?logo=webpack&logoColor=white&style=for-the-badge">
+</div>
 
-This page is built with HTML and CSS, and imports fonts from Google Fonts and Online Web Fonts. It also uses Font Awesome for icons. 
-
-The page features a cute hamster running in a wheel for decoration. 
-
-Thank you for visiting!
+## This repo is still under development
+Current project isn't done anymore.
