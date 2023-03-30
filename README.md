@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/YoruAkio/YoruAkio/joged.gif" width="100">
+    <img src="https://github.com/YoruAkio/YoruAkio/blob/main/joged.gif" width="100">
     <h1>
         <strong>Airi.dev</strong>
     </h1>
